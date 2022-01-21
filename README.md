@@ -21,7 +21,7 @@ ___
 Patch Notes:
 
 - Version 1.0
-  - 15th January 2021
+  - 20th January 2021
   - Features:
     - Allow plugin to kill command issuer
     - Allow plugins to add and recognize new perms
