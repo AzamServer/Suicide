@@ -1,0 +1,18 @@
+name: Suicide
+version: '${project.version}'
+main: com.azamserver.suicide.Main
+api-version: 1.18
+authors: [ Ali ]
+description: Allow players to kill themselves upon issuing a command
+website: https://card.azamserver.com/
+commands:
+  suicide:
+    description: Issuing command will kill sender's player if they have correct perms
+    usage: For help, please issue the command "/suicide help"
+permissions:
+  suicide.*:
+    description: Gives access to /suicide command
+    default: op
+    children:
+      suicide.suicide: true
+      suicide.helpMenu: true
